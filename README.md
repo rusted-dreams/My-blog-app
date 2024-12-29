@@ -1,3 +1,8 @@
+# Personal Blogging application
+
+## Description
+This is a personal blogging application with both markdown as well as WYSIWYG editor has features of comments and comment moderation. Readers can also submit their blogs if they wish to get their blog published as well. 
+
 ## Getting Started
 
 ### Open Using Daytona
@@ -24,5 +29,14 @@ daytona use development
 Start the server:
 
 ```bash
-node src/server.js
+pnpm run dev
 ```
+
+## Technologies Used:
+- typescript
+- tailwind
+- postgres (as database)
+- Nextjs
+- Nextauth
+- mdx - for markdown editor
+- friola (wysiwyg editor)
